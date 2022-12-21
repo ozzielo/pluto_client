@@ -1,5 +1,5 @@
 import React from 'react';
-import { Navbar, Nav, Container, Row, Col } from 'react-bootstrap';
+import { Navbar, Container, Row, Col } from 'react-bootstrap';
 import './play-view.scss';
 
 import { PlayCard } from "../play-card/play-card";
