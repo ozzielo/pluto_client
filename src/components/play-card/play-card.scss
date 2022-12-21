@@ -1,0 +1,69 @@
+
+.movieContainer{
+  overflow: hidden;
+    display: grid;
+    // margin-right: none;
+    margin: none;
+    width:100%;
+    // margin-left: 7%;
+    // margin-right: 7%;
+  }
+  
+  .movieCard {
+    overflow: hidden;
+    width: 50px;
+    margin-top: 20px;
+    background-color: rgb(0, 0, 0);
+    outline: firebrick;
+    // margin-right: 50px;
+    // margin-left: 50px;
+    padding: none;
+  }
+  
+  .cardImage {
+    overflow: hidden;
+    height: 100%!important;
+    width: 200px!important;
+    object-fit: cover;
+  }
+
+  iframe{
+    overflow: hidden;
+      height: 70vh;
+      min-height: 323px;
+      width: 100%;
+      // width:100px;
+  }
+
+  .card-btn{
+    border-radius: 30px;
+    outline-color: #719537;
+    border: 2px solid #853795;
+color: #853795;
+background-color:  #000000;
+font-weight: bold;
+font-size: 25px;
+// background-color:  #853795;
+  }
+
+  .card-btn:hover{
+    border-radius: 30px;
+    color: #000000;
+    background-color:  #853795;
+    border: 2px solid #853795;
+  }
+
+  .song-row{
+    width:100%;
+  }
+  
+// this fixed stretch
+  .playcd{
+    overflow: hidden;
+    width: 100%;
+  }
+
+  .card-group{
+    padding: none;
+    margin: none;
+  }
