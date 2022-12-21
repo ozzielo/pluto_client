@@ -12470,7 +12470,6 @@ span {
   background-color: #000;
   outline: #b22222;
   margin-top: 20px;
-  overflow: hidden;
 }
 
 .cardImage {
@@ -12484,7 +12483,7 @@ iframe {
   height: 70vh;
   min-height: 323px;
   width: 100%;
-  overflow: hidden;
+  overflow: scroll;
 }
 
 .card-btn {
